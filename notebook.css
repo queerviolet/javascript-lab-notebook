@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Crimson+Text:400,700italic,600italic,400italic,700,600);
+
+body {
+	background: #ebf8ff;
+	font-family: 'Crimson Text', serif;
+	font-size: 13pt;
+	width: 36em;
+
+	padding: 0; margin: 0;
+
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+h1 {
+	font-family: 'Crimson Text';
+	font-weight: 400;
+	text-align: center;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Crimson Text', serif;
+	font-weight: 600;
+	font-size: 18pt;
+	text-align: center;
+}
+
+code {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 11pt;
+}
+
+div.highlight:first-of-type {
+	margin: 100px;
+}
+
+pre {
+	margin-left: 25px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 600;
+}
+
+a:active {
+	color: fuchsia;
+}
+
+a:hover {
+	border-bottom: thin solid darkgray;
+}
+
+nav {
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 20px;
+	margin-top: 5px;
+}
+
+nav > a {
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 400;
+	font-size: 10pt;
+	position: absolute;
+	width: 100%;
+}
+
+nav > a[rel="next"]:before {
+	content: 'next: ';
+}
+
+nav > a[rel="next"] {
+	left: calc(50% + 25px);
+}
+
+nav > a[rel="prev"]:before {
+	content: 'prev: ';
+}
+
+nav > a[rel="prev"] {
+	right: calc(50% + 25px);
+	text-align: right;
+}
