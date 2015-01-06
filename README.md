@@ -7,7 +7,7 @@ next: /001_short_circuit_evaluation/
 
 # The Javascript Lab Notebook #
 
-*The Javascript lab notebook is [available here](http://jsln.ashi.works).*
+*The Javascript lab notebook is [available here](http://www.ashi.works/javascript-lab-notebook).*
 
 This notebook has a collection of lab specimens and notes findings to help you
 learn Javascript by experiment.
@@ -33,7 +33,7 @@ where he covers all the Javascript language features you will ever need.
 
 ## Colophon ##
 
-The lab notebook is hosted on Github Pages [here](http://jsln.ashi.works). The
+The lab notebook is hosted on Github Pages [here](http://www.ashi.works/javascript-lab-notebook). The
 notebook is a work in progress. New entries come up once or twice per week.
 
 The main repository is [here](http://www.github.com/queerviolet/javascript-
