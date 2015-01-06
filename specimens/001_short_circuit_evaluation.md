@@ -1,13 +1,17 @@
 ---
-title: Specimen 001 -- Short circuit evaluation
+title: Specimen 001 — Short circuit evaluation
 layout: specimen
+category: specimen
 permalink: /001_short_circuit_evaluation/
+prev: /
 next: /002_callbacks_and_asynchrony/
 ---
 
 # Specimen 001: Short circuit evaluation #
 
-*Research: You may find the first chapter of Speaking Javascript, specifically the section on short-circuiting boolean operators, helpful in describing the behavior you see here.*
+*Research: You may find the [first chapter](http://speakingjs.com/es5/ch01.html) of Speaking Javascript, specifically the section on
+[binary logical operators](http://speakingjs.com/es5/ch01.html#_binary_logical_operators),
+helpful in describing the behavior you see here.*
 
     var f1 = function() {
       return 'mimas';

@@ -1,8 +1,10 @@
 ---
-title: Specimen 2 — Callbacks & Asynchrony
+title: Specimen 002 — Callbacks & Asynchrony
 layout: specimen
+category: specimen
 permalink: /002_callbacks_and_asynchrony/
 prev: /001_short_circuit_evaluation/
+next: /
 ---
 
 # Specimen 002: Callbacks & Asynchrony #
