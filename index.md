@@ -11,7 +11,7 @@ next: /001_short_circuit_evaluation/
 
 {% for f in site.pages %}
 {% if f.category == 'specimen' %}
-<a href="{{ f.url }}">{{ f.title }}</a>
+<a href="{{ site.baseurl }}{{ f.url }}">{{ f.title }}</a>
 {% endif %}
 {% endfor %}
 
