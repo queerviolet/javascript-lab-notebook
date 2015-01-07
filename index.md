@@ -19,6 +19,8 @@ next: 001_short_circuit_evaluation/
 
 {% include_relative COLOPHON.md %}
 
+Site generated from branch gh-pages at {{ site.time }}.
+
 ## License ##
 
 {% include_relative LICENSE.md %}
