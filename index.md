@@ -2,7 +2,7 @@
 title: The Javascript Lab Notebook
 permalink: /
 layout: specimen
-next: 001_short_circuit_evaluation/
+next: /001_short_circuit_evaluation/
 ---
 
 {% include_relative README.md %}
