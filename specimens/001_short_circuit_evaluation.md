@@ -2,7 +2,7 @@
 title: Specimen 001 — Short circuit evaluation
 layout: specimen
 category: specimen
-permalink: /001_short_circuit_evaluation/
+permalink: 001_short_circuit_evaluation/
 prev: /
 next: /002_callbacks_and_asynchrony/
 ---

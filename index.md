@@ -1,0 +1,24 @@
+---
+title: The Javascript Lab Notebook
+permalink: /
+layout: specimen
+next: 001_short_circuit_evaluation/
+---
+
+{% include_relative README.md %}
+
+## Specimens ##
+
+{% for f in site.pages %}
+{% if f.category == 'specimen' %}
+<a href="{{ f.url }}">{{ f.title }}</a>
+{% endif %}
+{% endfor %}
+
+## Colophon ##
+
+{% include_relative COLOPHON.md %}
+
+## License ##
+
+{% include_relative LICENSE.md %}

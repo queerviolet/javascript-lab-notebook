@@ -3,9 +3,9 @@
 	<head>
 		<title>{{ page.title }}</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="/notebook.css">
-		<link rel="stylesheet" href="/atelier-lakeside.light.css">
-		<script src="/highlight.min.js"></script>
+		<link rel="stylesheet" href="{{ site.baseurl }}/notebook.css">
+		<link rel="stylesheet" href="{{ site.baseurl }}/atelier-lakeside.light.css">		
+		<script src="{{ site.baseurl }}/highlight.min.js"></script>
 		<script>
 			hljs.configure({languages: ['javascript', 'ruby']});
 			hljs.initHighlightingOnLoad();
@@ -13,8 +13,16 @@
 	</head>
 	<body>
 		<nav>
-			{% if page.prev %}<a rel="prev" href="{{ page.prev }}">{{ page.prev }}</a>{% endif %}
-			{% if page.next %}<a rel="next" href="{{ page.next }}">{{ page.next }}</a>{% endif %}
+			{% if page.prev %}
+			<a rel="prev" href="{{ site.baseurl }}{{ page.prev }}">
+			  {{ page.prev }}
+			</a>
+			{% endif %}
+			{% if page.next %}
+			<a rel="next" href="{{ site.baseurl }}{{ page.next }}">
+			  {{ page.next }}
+			</a>
+			{% endif %}
 		</nav>
 		{{ content }}
 	</body>

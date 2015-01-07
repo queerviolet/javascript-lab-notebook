@@ -1,10 +1,3 @@
----
-title: The Javascript Lab Notebook
-permalink: /
-layout: specimen
-next: /001_short_circuit_evaluation/
----
-
 # The Javascript Lab Notebook #
 
 *The Javascript lab notebook is [available here](http://www.ashi.works/javascript-lab-notebook).*
@@ -22,26 +15,3 @@ with current best practices. It's written by Dr. Axel Rauschmayer, who I'd
 like to refer to as &#8220;Axel&#8221; or &#8220;Dr. Rose&#8221;. At a minimum,
 I'd recommend reading Axel's [first chapter](http://speakingjs.com/es5/ch01.html),
 where he covers all the Javascript language features you will ever need.
-
-## Specimens ##
-
-{% for f in site.pages %}
-{% if f.category == 'specimen' %}
-<a href="{{ f.url }}">{{ f.title }}</a>
-{% endif %}
-{% endfor %}
-
-## Colophon ##
-
-The lab notebook is hosted on Github Pages [here](http://www.ashi.works/javascript-lab-notebook). The
-notebook is a work in progress. New entries come up once or twice per week.
-
-The main repository is [here](http://www.github.com/queerviolet/javascript-
-lab-notebook). Pull requests are welcome, as are issues requesting new
-specimens on particular subjects.
-
-The notebook pages are written in Markdown. Fonts: Source Code Pro and Crimson
-Text served from the Google Web Fonts CDN. Syntax highlighting is provided by
-[highlightjs](https://highlightjs.org/).
-
-The Javascript Lab Notebook is available under the [Creative Commons Attribution-ShareAlike 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
