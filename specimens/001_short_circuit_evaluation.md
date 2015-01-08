@@ -396,4 +396,4 @@ If that seems like black magic right now, don't worry. Our next specimen will be
 
 If this seems like a looooooot of energy to understand one operator, it's in part because I want to show you a general technique for understanding languages. Human languages are lists of sentences. Each sentence consists of phrases, and each phrase has something like a value. Robot languages are exactly the same in this regard, almost as if the same people who made human languages made robot languages. To understand what code is doing, you can pull it apart into its constituent bits and ask what they evaluate to.
 
-Here's a nifty tool that does the first part for Javascript. It parses Javascript and turns it into JSON giving you a robot's eye view of your code—this is what the Javascript interpreter sees when it looks at your program.
+[Here's a nifty tool](http://esprima.org/demo/parse.html) that does the first part for Javascript. It parses Javascript and turns it into JSON giving you a robot's eye view of your code—this is what the Javascript interpreter sees when it looks at your program.
