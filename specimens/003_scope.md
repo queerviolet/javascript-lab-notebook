@@ -4,7 +4,7 @@ layout: specimen
 category: specimen
 permalink: /003_scope/
 prev: /002_callbacks_and_asynchrony/
-next: /
+next: /004_call_apply_bind/
 ---
 
 # Specimen 003: Scope #
