@@ -4,7 +4,7 @@ layout: specimen
 category: specimen
 permalink: /002_callbacks_and_asynchrony/
 prev: /001_short_circuit_evaluation/
-next: /
+next: /003_scope/
 ---
 
 # Specimen 002: Callbacks & Asynchrony #
