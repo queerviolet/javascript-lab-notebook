@@ -15,8 +15,10 @@ next: /
     super.magical = true;
 
 1. What is the value of the expression `sub.magical`?
-2. Does the `sub` object itself have a `"magical"` key? (resources: [in](),
-   [Object.hasOwnProperty](), [Object.keys]())
+2. Does the `sub` object itself have a `"magical"` key? (resources:
+   [in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in),
+   [Object.hasOwnProperty](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty),
+   [Object.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys))
 3. Write a function that will make this code work:
 
     [1, 2, 4, 5, 6, 7].count(function(e) {
@@ -38,6 +40,3 @@ next: /
 
 This specimen has not yet been analyzed.
 
-[in][https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in]
-[Object.hasOwnProperty][https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty]
-[Object.keys][https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)]

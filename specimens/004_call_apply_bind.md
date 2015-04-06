@@ -13,7 +13,7 @@ next: /005_scope_2/
       return Array.prototype.slice.apply(arguments);
     }
 
-Resources: [Function.apply]()
+Resources: [Function.apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
 
 1. What is `Array.prototype.slice`? Is it the same as `[].slice`?
 
@@ -56,5 +56,3 @@ Resources: [Function.apply]()
 ## Lab notes ##
 
 This specimen has not yet been analyzed.
-
-[Function.apply][https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply]
