@@ -13,7 +13,7 @@ next: /005_scope_2/
       return Array.prototype.slice.apply(arguments);
     }
 
-Resources: [Function.apply][]
+Resources: [Function.apply]()
 
 1. What is `Array.prototype.slice`? Is it the same as `[].slice`?
 

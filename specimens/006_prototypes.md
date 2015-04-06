@@ -15,8 +15,8 @@ next: /
     super.magical = true;
 
 1. What is the value of the expression `sub.magical`?
-2. Does the `sub` object itself have a `"magical"` key? (resources: [in][],
-   [Object.hasOwnProperty][], [Object.keys][])
+2. Does the `sub` object itself have a `"magical"` key? (resources: [in](),
+   [Object.hasOwnProperty](), [Object.keys]())
 3. Write a function that will make this code work:
 
     [1, 2, 4, 5, 6, 7].count(function(e) {
