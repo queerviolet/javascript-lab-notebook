@@ -54,6 +54,10 @@ Explain why this is impossible (and, if you like, how you could achieve somethin
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
 
 ## Lab notes ##
 
@@ -344,8 +348,7 @@ behaves in this way. This explains why you can things like,
 
 die won't be called if the left hand side of the expression is true.
  
-### Finally, imagine I asked you to write an `or` function, which functions
-exactly like the `||` operator.
+### Finally, imagine I asked you to write an `or` function, which functions exactly like the `||` operator.
 
     // or(x,y, z) is identical to typing x || y || z
     function or() {

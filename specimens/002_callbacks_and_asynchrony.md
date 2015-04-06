@@ -15,7 +15,7 @@ next: /
         	x = 'tiamat';
         	console.log('inana', x);
         }, 3000);
-        setImmediate(func);
+        setTimeout(func, 0);
         setTimeout(function() {
         	console.log('kali', x);
         	x = 'lakshmi';        	
@@ -35,6 +35,10 @@ next: /
 3. In Javascript, when I pass a function as an argument, when will that function
    be called?
 
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -62,7 +66,7 @@ Okay, now let's see if we can understand why. Here's `names()`:
           x = 'tiamat';
           console.log('inana', x);
         }, 3000);
-        setImmediate(func);
+        setTimeout(func, 0);
         setTimeout(function() {
           console.log('kali', x);
           x = 'lakshmi';
@@ -72,7 +76,7 @@ Okay, now let's see if we can understand why. Here's `names()`:
 
 Let's make a little timeline. I'm going to assume that each Javascript statement
 takes about a millisecond to execute. That's about a thousand times slower than
-real time, but because the timeouts are spaced pretty far apart, so it shouldn't
+real time, but the timeouts are spaced pretty far apart, so it shouldn't
 matter for figuring out what order things happen in.
 
 ### t = 0 ###
@@ -169,18 +173,12 @@ We haven't printed anything yet, and the only functions that have been called ar
 `names` and `setTimeout`.
 
 ### t = 3 
-        setImmediate(func);
 
-This is interesting. What does `setImmediate` do? It's a new thing, I'm not very
-familiar with it. I'm going to assume it doesn't just call `func`—there's already
-a way to write that, `func()`, and it's shorter. So I'm going to presume it does
-something very like `setTimeout(func, 0)`. The [documentation](https://developer.mozilla.org/en-US/docs/Web/API/Window.setImmediate) makes some noise about how it's not really a standard and probably
-not going to become one, and says that `setTimeout(func, 0)` isn't a good substitute
-for some reason that has to do with the resolution of the timers that `setTimeout`
-is implemented with. Since we're doing a toy demo, not writing some async framework,
-I don't think we care about that.
+        setTimeout(func, 0);
 
-So after running this, our timers object looks like this:
+What happens when you call `setTimeout` with a delay of 0? I think it's the same
+thing that happens with any delay: we insert a timer. So after running this, our
+timers object looks like this:
 
      global.timers = [{time: 3,
                        func: function(x) {
