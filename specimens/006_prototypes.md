@@ -21,10 +21,10 @@ next: /
    [Object.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys))
 3. Write a function that will make this code work:
 
-```javascript
-[1, 2, 4, 5, 6, 7].count(function(e) {
-  return e % 2 === 0;
-});  // -> 3
+```
+    [1, 2, 4, 5, 6, 7].count(function(e) {<br>
+      return e % 2 === 0;<br>
+    });  // -> 3
 ```
 
 
