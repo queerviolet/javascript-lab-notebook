@@ -22,19 +22,19 @@ Resources: [Function.apply](https://developer.mozilla.org/en-US/docs/Web/JavaScr
 3. Write the body of this function:
 
 ```
-    // Bind takes func (a function) and thisArg and returns
-    // a new function which invokes `func` with the object `thisArg`
-    // provided as `this`
-    function bind(func, thisArg) {
-      // TODO
-    }
-  
-    Example:
-  
-    var ary = [];
-    var f = bind(Array.prototype.push, ary);
-    f('hello', 'world');
-    console.log(ary); // -> ['hello', 'world']
+// Bind takes func (a function) and thisArg and returns
+// a new function which invokes `func` with the object `thisArg`
+// provided as `this`
+function bind(func, thisArg) {
+  // TODO
+}
+
+Example:
+
+var ary = [];
+var f = bind(Array.prototype.push, ary);
+f('hello', 'world');
+console.log(ary); // -> ['hello', 'world']
 ```
 
 4. Add support for binding additional arguments to your `bind` function.
