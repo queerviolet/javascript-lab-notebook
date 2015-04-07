@@ -17,10 +17,11 @@ Resources: [Function.apply](https://developer.mozilla.org/en-US/docs/Web/JavaScr
 
 1. What is `Array.prototype.slice`? Is it the same as `[].slice`?
 
-1. What does `toAry` do?
+2. What does `toAry` do?
 
-2. Write the body of this function:
+3. Write the body of this function:
 
+```
     // Bind takes func (a function) and thisArg and returns
     // a new function which invokes `func` with the object `thisArg`
     // provided as `this`
@@ -34,15 +35,18 @@ Resources: [Function.apply](https://developer.mozilla.org/en-US/docs/Web/JavaScr
     var f = bind(Array.prototype.push, ary);
     f('hello', 'world');
     console.log(ary); // -> ['hello', 'world']
+```
 
-3. Add support for binding additional arguments to your `bind` function.
+4. Add support for binding additional arguments to your `bind` function.
 
+```
     // Example:
   
     var ary = [];
     var f = bind(Array.prototype.push, ary, '>>');
     f('hello', 'world');
     console.log(ary); // ['>>', 'hello', 'world'];
+```
 
 <br>
 <br>
