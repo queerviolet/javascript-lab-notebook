@@ -23,8 +23,8 @@ Resources: [Function.apply](https://developer.mozilla.org/en-US/docs/Web/JavaScr
 
 ```
 // Bind takes func (a function) and thisArg and returns
-// a new function which invokes `func` with the object `thisArg`
-// provided as `this`
+// a new function which invokes func with the object thisArg
+// provided as this.
 function bind(func, thisArg) {
   // TODO
 }
