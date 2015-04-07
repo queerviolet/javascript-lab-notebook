@@ -46,6 +46,9 @@ Resources: [Function.apply](https://developer.mozilla.org/en-US/docs/Web/JavaScr
     // an object, and any number of additional arguments. It returns
     // a new function which invokes func with the specified context
     // and initial arguments.
+    function bindPartial(func, thisArg) {
+      // TODO
+    }
     
     // Example 1:
       
@@ -57,7 +60,8 @@ Resources: [Function.apply](https://developer.mozilla.org/en-US/docs/Web/JavaScr
     
     // Example 2:
     
-    var max = bindPartial(Math.max, undefined, 100);
+    var max = bindPartial(Math.max, Math, 100);
+    // Equivalent to calling Math.max(100, 99, 98, 19, 22)
     console.log(max(99, 98, 19, 22));  // -> 100
     console.log(max(99, 98, 192, 2));  // -> 192
     </code></pre>
