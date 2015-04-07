@@ -20,8 +20,11 @@ next: /
    [Object.hasOwnProperty](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty),
    [Object.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys))
 3. Write a function that will make this code work:
-
-```    [1, 2, 4, 5, 6, 7].count(function(e) { return e % 2 === 0; });  // -> 3```
+    <pre><code>
+    [1, 2, 4, 5, 6, 7].count(function(e) {
+      return e % 2 === 0;
+    });  // -> 3
+    </code></pre>
 
 <br>
 <br>
