@@ -4,7 +4,7 @@ layout: specimen
 category: specimen
 permalink: /006_prototypes/
 prev: /005_scope_2/
-next: /
+next: /007_promises/
 ---
 
 # Specimen 006: Prototypes #
